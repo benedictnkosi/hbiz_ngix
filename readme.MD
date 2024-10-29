@@ -1,2 +1,6 @@
 Update code
-git clone
+
+# Clone the repository
+
+cd /var/www/html/hbiz_ngix/
+sudo ./git_pull_changes.sh
