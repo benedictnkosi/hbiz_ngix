@@ -40,7 +40,7 @@ if (isset($data['domain'])) {
         }
 
         // Return the output
-        echo json_encode(['output' => $createDomainOutput . " - " . $setupSSLOutput]);
+        echo json_encode(['output' => "Successfully created domain $domain"]);
     } catch (Exception $e) {
         // Return the error message
         echo json_encode(['error' => $e->getMessage()]);
